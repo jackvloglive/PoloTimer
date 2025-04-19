@@ -1,7 +1,7 @@
 import { Clock } from "lucide-react";
 import { TimerDesign } from "./Components/Timer/Timer";
-import { TodoContainer } from "./Components/TodoItems/TodoBoxs";
 import { DrawingConatiner } from "./Components/Drawing/Drawing";
+import { TodoBox } from "./Components/TodoItems/TodoBoxs";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         </h1>
       </div>
       <TimerDesign />
-      <TodoContainer />
+      <TodoBox />
       <DrawingConatiner />
     </>
   );
