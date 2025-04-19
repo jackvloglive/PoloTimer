@@ -1,3 +1,13 @@
+export const TodoBox = () => {
+  return (
+    <>
+      <div>
+        <input type="text" />
+      </div>
+    </>
+  );
+};
+
 export const TodoContainer = () => {
   return (
     <>
@@ -25,16 +35,6 @@ export const TodoContainer = () => {
             <TodoBox />
           </div>
         </div>
-      </div>
-    </>
-  );
-};
-
-export const TodoBox = () => {
-  return (
-    <>
-      <div>
-        <input type="text" />
       </div>
     </>
   );
