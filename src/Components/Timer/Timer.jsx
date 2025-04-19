@@ -46,7 +46,12 @@ export const TimerDesign = () => {
       {/* Time Display or Editable Input */}
       <div
         onClick={() => setIsEditing(true)}
-        style={{ fontSize: "48px", cursor: "pointer", marginBottom: "20px" }}
+        style={{
+          fontSize: "48px",
+          cursor: "pointer",
+          marginBottom: "20px",
+          backgroundColor: "inherit",
+        }}
       >
         {isEditing ? (
           <input
@@ -67,6 +72,7 @@ export const TimerDesign = () => {
               border: "none",
               borderRadius: "10px",
               padding: "5px",
+              backgroundColor: "inherit",
             }}
           />
         ) : (
